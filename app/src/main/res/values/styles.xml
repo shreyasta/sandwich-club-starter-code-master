@@ -1,0 +1,65 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="SandwichImage">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/image_size</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:contentDescription">@string/sandwich_picture_content_description</item>
+        <item name="android:scaleType">fitXY</item>
+    </style>
+
+
+    <style name="TextOrigin">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">@dimen/padding_min</item>
+        <item name="android:paddingBottom">@dimen/padding_min</item>
+        <item name="android:layout_marginLeft">@dimen/activity_horizontal_margin</item>
+        <item name="android:textColor">@color/colorOrigin</item>
+        <item name="android:textSize">@dimen/text_size_label</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextOriginData">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/margin_left</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/colorOrigin</item>
+        <item name="android:textSize">@dimen/text_size_label</item>
+    </style>
+
+    <style name="TextAlsoKnow">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_label</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextAlsoKnow.Data">
+        <item name="android:layout_marginLeft">@dimen/margin_left</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="TextCommon">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_data</item>
+        <item name="android:layout_marginBottom">@dimen/margin_vertical</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="TextCommon.Label">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+</resources>
